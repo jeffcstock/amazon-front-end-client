@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0 2vw;
+  height: 100vh;
+  width: 100vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: 100;
+}
+
+.back-btn {
+  font-size: 2em;
+}
